@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA723EBF-F3DC-4A06-8685-66515E4B24CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{37857D3B-9E40-4CB7-B25B-BF0FD5C29837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus.Abstractions", "src\Consensus.Abstractions\Consensus.Abstractions.csproj", "{E1F5CBA6-9610-4C1D-B413-9E4968375B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus.Core", "src\Consensus.Core\Consensus.Core.csproj", "{B746AFEF-4926-412A-96DA-A830882B388A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus.Presentation.ConsoleApp", "src\Consensus.Presentation.ConsoleApp\Consensus.Presentation.ConsoleApp.csproj", "{2B375FDC-36F8-4757-81FA-132F744984E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1F5CBA6-9610-4C1D-B413-9E4968375B04} = {DA723EBF-F3DC-4A06-8685-66515E4B24CC}
+		{B746AFEF-4926-412A-96DA-A830882B388A} = {DA723EBF-F3DC-4A06-8685-66515E4B24CC}
+		{2B375FDC-36F8-4757-81FA-132F744984E4} = {DA723EBF-F3DC-4A06-8685-66515E4B24CC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1F5CBA6-9610-4C1D-B413-9E4968375B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F5CBA6-9610-4C1D-B413-9E4968375B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F5CBA6-9610-4C1D-B413-9E4968375B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F5CBA6-9610-4C1D-B413-9E4968375B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B746AFEF-4926-412A-96DA-A830882B388A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B746AFEF-4926-412A-96DA-A830882B388A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B746AFEF-4926-412A-96DA-A830882B388A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B746AFEF-4926-412A-96DA-A830882B388A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B375FDC-36F8-4757-81FA-132F744984E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B375FDC-36F8-4757-81FA-132F744984E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B375FDC-36F8-4757-81FA-132F744984E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B375FDC-36F8-4757-81FA-132F744984E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
