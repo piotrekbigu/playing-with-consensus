@@ -1,0 +1,10 @@
+POST https://localhost:7063/cluster/command
+content-type: application/json
+
+{
+    "command": "* 56"
+}
+
+###
+
+GET https://localhost:7063/cluster/meta

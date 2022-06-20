@@ -8,7 +8,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus.Abstractions", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus.Core", "src\Consensus.Core\Consensus.Core.csproj", "{B746AFEF-4926-412A-96DA-A830882B388A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus.Presentation.ConsoleApp", "src\Consensus.Presentation.ConsoleApp\Consensus.Presentation.ConsoleApp.csproj", "{2B375FDC-36F8-4757-81FA-132F744984E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus.Domain", "src\Consensus.Domain\Consensus.Domain.csproj", "{1617B172-840B-4408-BCD1-6BF295640948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus.Presentation.WebApi", "src\Consensus.Presentation.WebApi\Consensus.Presentation.WebApi.csproj", "{FBEDE21F-A2D4-4CCA-A7A5-EC8AE333A693}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{A1582149-70FA-4DD3-95D3-7679A3FA9315}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		testRequests.http = testRequests.http
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,7 +26,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E1F5CBA6-9610-4C1D-B413-9E4968375B04} = {DA723EBF-F3DC-4A06-8685-66515E4B24CC}
 		{B746AFEF-4926-412A-96DA-A830882B388A} = {DA723EBF-F3DC-4A06-8685-66515E4B24CC}
-		{2B375FDC-36F8-4757-81FA-132F744984E4} = {DA723EBF-F3DC-4A06-8685-66515E4B24CC}
+		{1617B172-840B-4408-BCD1-6BF295640948} = {DA723EBF-F3DC-4A06-8685-66515E4B24CC}
+		{FBEDE21F-A2D4-4CCA-A7A5-EC8AE333A693} = {DA723EBF-F3DC-4A06-8685-66515E4B24CC}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E1F5CBA6-9610-4C1D-B413-9E4968375B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -29,9 +38,13 @@ Global
 		{B746AFEF-4926-412A-96DA-A830882B388A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B746AFEF-4926-412A-96DA-A830882B388A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B746AFEF-4926-412A-96DA-A830882B388A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B375FDC-36F8-4757-81FA-132F744984E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B375FDC-36F8-4757-81FA-132F744984E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B375FDC-36F8-4757-81FA-132F744984E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B375FDC-36F8-4757-81FA-132F744984E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1617B172-840B-4408-BCD1-6BF295640948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1617B172-840B-4408-BCD1-6BF295640948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1617B172-840B-4408-BCD1-6BF295640948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1617B172-840B-4408-BCD1-6BF295640948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEDE21F-A2D4-4CCA-A7A5-EC8AE333A693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEDE21F-A2D4-4CCA-A7A5-EC8AE333A693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEDE21F-A2D4-4CCA-A7A5-EC8AE333A693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEDE21F-A2D4-4CCA-A7A5-EC8AE333A693}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
